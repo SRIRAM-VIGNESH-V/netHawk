@@ -24,6 +24,6 @@ Stealth TCP scans, like SYN scans, operate by sending SYN packets to a target's 
 ## live host identification
 Live host identification using ICMP involves sending ICMP Echo Request (ping) packets to potential hosts and awaiting ICMP Echo Reply responses. A response indicates the host is alive. ICMP is commonly used for basic host reachability checks, aiding in network reconnaissance and troubleshooting.
 ## installation 
-To install netHawk run the install.py file from terminal with root access. After successful installation run netHawk keyword in terminal to start CLI. Use netHawk-help for CLI argument definitions and functions.
+To install netHawk run the install.py file from terminal with root access. After successful installation, run netHawk keyword in terminal to start CLI. Use netHawk-help for CLI argument definitions and functions.
 ### LICENSE 
 This project is licensed under MIT-license
