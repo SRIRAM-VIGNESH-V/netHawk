@@ -19,7 +19,7 @@ Scapy is a Python tool for synthetic crafting, analyzing, and manipulating netwo
 Nmap service probes are essential for the tool's accurate service detection during network scans. These probes, stored in a database, consist of patterns matched against responses to pinpoint specific services and versions running on target hosts. Users can customize probes for flexibility, contributing to Nmap's efficiency in recognizing diverse services and staying up-to-date. The information gathered aids in precise identification, version detection, and efficient network reconnaissance. 
 ## OS detection with TTL on packets
 Analyzing Time-to-Live (TTL) values in received packets is a technique for OS detection. Different operating systems have distinct default TTL values, allowing for educated guesses about the target OS based on these values. This method provides insights into the likely operating system without specific tools like Nmap.
-## IDS IPS Firewall bypass with stealth TCP scans 
+## IDS,IPS and Firewall bypass with stealth TCP scans 
 Stealth TCP scans, like SYN scans, operate by sending SYN packets to a target's ports without completing the three-way handshake. This method is stealthy because it avoids establishing a full connection, minimizing detection by intrusion detection systems. SYN scans help identify open ports on a target system without arousing suspicion due to the incomplete connection attempt.
 ## live host identification
 Live host identification using ICMP involves sending ICMP Echo Request (ping) packets to potential hosts and awaiting ICMP Echo Reply responses. A response indicates the host is alive. ICMP is commonly used for basic host reachability checks, aiding in network reconnaissance and troubleshooting.
