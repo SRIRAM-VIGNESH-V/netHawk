@@ -1,7 +1,7 @@
 # netHawk
 NetHawk is a CLI (Windows and linux ) based networking penetration testing tool for active reconnaissance and enumeration of hosts on networks with Scapy 2.5.0 , capable of live host identification, OS detection and service identification of hosts on networks and also capable of stealth scanning networks for Firewall , IDS and IPS bypassing using synthetically crafted packets.
 ## Arguments 
-+ ![image](https://github.com/SRIRAM-VIGNESH-V/netHawk/assets/159048515/9fd45849-3408-472f-8fb2-f13119e423fb)<br>
+![image](https://github.com/SRIRAM-VIGNESH-V/netHawk/assets/159048515/9fd45849-3408-472f-8fb2-f13119e423fb)<br>
 * -sC : Scan common ports
 * -sA : Scan all ports
 * -sP : Scan a range ports
