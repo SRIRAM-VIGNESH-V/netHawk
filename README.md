@@ -13,13 +13,10 @@ NetHawk is a CLI (Windows and linux ) based networking penetration testing tool 
 + -t | Timeout to each request (reduce to avoid IDS/IPS triggers)
 + -st| Use stealth scan method (TCP)
 + -v | verbose scan<br>
-![image](https://github.com/SRIRAM-VIGNESH-V/netHawk/assets/159048515/9fd45849-3408-472f-8fb2-f13119e423fb)<br>
-
-
 ## scapy 
 
 Scapy is a Python tool for synthetic crafting, analyzing, and manipulating network packets. It supports a wide range of protocols and provides features for packet inspection, sending, sniffing, and custom protocol creation.<br>
-![image](https://github.com/SRIRAM-VIGNESH-V/netHawk/assets/159048515/3fbd5e3e-4fec-46e3-a5d7-ecbfa93225d8)<br>
+
 
 ## nmap service-probes<br>
 Nmap service probes are essential for the tool's accurate service detection during network scans. These probes, stored in a database, consist of patterns matched against responses to pinpoint specific services and versions running on target hosts. Users can customize probes for flexibility, contributing to Nmap's efficiency in recognizing diverse services and staying up-to-date. The information gathered aids in precise identification, version detection, and efficient network reconnaissance. 
